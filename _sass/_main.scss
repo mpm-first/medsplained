@@ -1,0 +1,10 @@
+@import 'foundation/foundation';
+@include foundation-everything($prototype: true);
+
+
+@import "settings/main";
+
+@import "base";
+@import "top-bar";
+@import "footer";
+@import "pages/main";

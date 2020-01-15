@@ -1,0 +1,53 @@
+#footer {
+  background: #000;
+  color: #fff;
+  margin-top: 40px;
+  min-height: 100vh;
+
+  a {
+    color: #fff;
+  }
+
+  #signup-ribbon {
+    background: #1c2ae5;
+    color: #fff;
+    padding: 8vh 8vh;
+
+    p {
+      padding: 0;
+      margin: 0;
+      font-size: 2em;
+      color: #fff;
+      @include font-serif-bold;
+    }
+
+    a {
+      background: #fff;
+      color: #000;
+      font-size: 1.25em;
+      margin-bottom: 0;
+      // padding: 10px 16px;
+    }
+  }
+
+  #footer-navigation {
+    display: block;
+    width: 100%;
+    // position: absolute;
+    // bottom: 0;
+    padding: 12vh 8vh 8vh;
+
+    .navigation {
+      a {
+        line-height: 3em;
+        font-weight: bold;
+      }
+    }
+
+    .copyright {
+      padding-top: 8vh;
+      opacity: .65;
+      font-size: .9em;
+    }
+  }
+}

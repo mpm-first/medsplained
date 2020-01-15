@@ -1,0 +1,40 @@
+body {
+  color: #000;
+  // padding-left: 200px;
+
+  @include breakpoint(xlarge down) {
+    // padding-top: 80px;
+  }
+
+  .content-wrap {
+    margin-left: 345px;
+
+    @include breakpoint(large down) {
+      margin-left: 0;
+    }
+  }
+}
+
+.page-wrap {
+  max-width: 650px;
+  min-height: 768px;
+}
+
+.panel {
+  position: relative;
+}
+
+.heading {
+  margin-top: 12vh;
+  font-size: 2em;
+  font-weight: bold;
+  color: $primary-color;
+  @include font-serif-bold;
+}
+
+.subheading {
+  font-size: 1em;
+  font-weight: bold;
+  color: $secondary-color;
+  // max-width: 75%;
+}

@@ -1,0 +1,14 @@
+#formula {
+
+  #landing {
+
+    @include breakpoint(xlarge down) {
+      padding-top: 0;
+    }
+  }
+
+  h3 {
+    font-size: 1em;
+    font-weight: bold;
+  }
+}
